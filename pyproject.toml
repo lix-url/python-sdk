@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lix-sdk"
+version = "0.1.0"
+description = "Official Python SDK for the Lix.li API."
+license = {text = "MIT"}
+requires-python = ">=3.8"
+keywords = ["lix", "url-shortener", "links-management", "analytics", "api", "sdk"]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.urls]
+Homepage = "https://lix.li"
+Repository = "https://github.com/lix-url/python-sdk"
+Issues = "https://github.com/lix-url/python-sdk/issues"
+Documentation = "https://lix.li/api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
