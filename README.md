@@ -17,7 +17,7 @@ pip install lix-sdk
 ```python
 from lix_sdk import Client
 
-client = Client('your_api_key')
+client = Client('lix_live_xxx')
 
 result = client.links().create('https://example.com')
 print(result.link.short_url)  # https://lix.li/xxxxx
@@ -220,3 +220,9 @@ lix_sdk/
 tests/                 — pytest test suite
 example.py             — runnable usage example
 ```
+
+
+## Documentation
+
+- API Documentation: https://lix.li/api
+- OpenAPI Specification: https://github.com/lix-url/openapi
