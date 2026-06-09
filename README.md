@@ -222,6 +222,18 @@ example.py             — runnable usage example
 ```
 
 
+## Other SDKs
+
+- PHP SDK: https://github.com/lix-url/php-sdk
+- JavaScript SDK: https://github.com/lix-url/js-sdk
+- Go SDK: https://github.com/lix-url/go-sdk
+
+## Support
+
+Need help with the API or SDK?
+
+- Support Center: https://lix.li/support
+
 ## Documentation
 
 - API Documentation: https://lix.li/api
